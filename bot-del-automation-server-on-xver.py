@@ -1,4 +1,4 @@
-#you must login on my.xver before user
+#you must login on my.xver before use
 import time
 import pyautogui as pg
 pg.hotkey('win','r')
