@@ -1,4 +1,5 @@
 import time
+
 import pyautogui as pg #nickname bro!!
 pg.write('sudo apt update && sudo apt upgrade -y')
 pg.press('enter')
@@ -20,6 +21,7 @@ pg.sleep(1000)
 pg.write('tasksel')
 pg.press('enter')
 pg.sleep(10)
+pg.press('down')
 pg.press('down')
 pg.press('down')
 pg.press('down')
