@@ -11,16 +11,22 @@ pg.press('enter')
 pg.press('f11') 
 
 
-time.sleep(1)
-pg.click(1250,110)  #click depoly server
-time.sleep(1)
-pg.click(625,315)  #celecp server linux
+time.sleep(2)
+pg.click(100,564) #click ตรงขอบ Point(x=100, y=564)
+pg.keyDown('tab')
+pg.hotkey('tab')  
+pg.keyDown('tab')
+pg.hotkey('tab')  
+pg.keyDown('tab')
+pg.press('enter')
+time.sleep(2)
+pg.click(625,315) #select server linux
 pg.hotkey('down')
 pg.hotkey('enter')
 time.sleep(1)
-pg.click(638,450) #click plan server
+pg.click(638,450) 
 pg.hotkey('tab')
-pg.write('Muffyn29300.') #write password
+pg.write('Muffyn29300.')
 pg.hotkey('tab')
-pg.write('muffyn1')     #name server
+pg.write('muffyn2')
 #pg.hotkey('enter')
