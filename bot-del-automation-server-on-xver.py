@@ -49,7 +49,7 @@ pg.click(1207,120) #click icon del server
 pg.click(x=587, y=430) #click "OK"
 time.sleep(2)
 
-pg.click(690,47) #click ตรงกบบาบ
+pg.click(690,47) #click 
 pg.keyDown('tab')
 pg.hotkey('tab')  
 pg.keyDown('tab')
